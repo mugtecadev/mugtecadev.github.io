@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mugteca |catálogo</title>
+  <style>
+    :root {
+      --cor-primaria: #4E342E; /* marrom escuro */
+      --cor-secundaria: #A1887F; /* marrom claro */
+      --cor-fundo: #EFEBE9; /* fundo bege */
+    }
+
+    body {
+      background-color: var(--cor-fundo);
+      color: var(--cor-primaria);
+      font-family: Arial, sans-serif;
+      padding: 24px;
+      margin: 0;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    header p {
+      font-size: 1.25rem;
+      color: var(--cor-secundaria);
+    }
+
+    .catalogo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 16px;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 12px;
+    }
+
+    .card h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    .card .preco {
+      color: var(--cor-secundaria);
+      margin: 4px 0;
+    }
+
+    .card .dimensoes {
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+     .botao-whatsapp {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      background-color: #25D366;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 12px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: 80%;
+    }
+
+    .botao-whatsapp:hover {
+      background-color: #1ebe5d;
+    }
+
+    .botao-whatsapp img {
+      width: 20px;
+      height: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Catálogo Mugteca</h1>
+    <p>Escolha a xícara ideal para seu café</p>
+  </header>
+
+  <main class="catalogo">
+    <div class="card">
+      <img src="assets/canecas/capivara.jpg" alt="Xícara 1">
+      <h2>Xícara Capivara</h2>
+      <p class="preco">R$ 52,00</p>
+      <p class="dimensoes">Material: Cerâmica</p>
+      <a class="botao-whatsapp" href="https://wa.me/5599999999999" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        Comprar Agora
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="assets/canecas/caneca-ore-plus.jpg" alt="Xícara 2">
+      <h2>Xícara Ore+</h2>
+      <p class="preco">R$ 45,00</p>
+      <p class="dimensoes">Material: Cerâmica</p>
+      <a class="botao-whatsapp" href="https://wa.me/5599999999999" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        Comprar Agora
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="assets/canecas/caneca-raposa.jpg" alt="Xícara 3">
+      <h2>Xícara Raposa</h2>
+      <p class="preco">R$ 45,90</p>
+      <p class="dimensoes">Material: Cerâmica</p>
+      <a class="botao-whatsapp" href="https://wa.me/5599999999999" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        Comprar Agora
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="assets/canecas/donut.jpg" alt="Xícara 4">
+      <h2>Xícara Vintage</h2>
+      <p class="preco">R$ 50,00</p>
+      <p class="dimensoes">Material: Cerâmica</p>
+      <a class="botao-whatsapp" href="https://wa.me/5599999999999" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        Comprar Agora
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="assets/canecas/start-game-branca.jpg" alt="Xícara 5">
+      <h2>Xícara Start Game(Branco)</h2>
+      <p class="preco">R$ 50,00</p>
+      <p class="dimensoes">Material: Cerâmica</p>
+      <a class="botao-whatsapp" href="https://wa.me/5599999999999" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        Comprar Agora
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="assets/canecas/game-start-black.jpg" alt="Xícara 6">
+      <h2>Xícara Start Game(Preto)</h2>
+      <p class="preco">R$ 50,00</p>
+      <p class="dimensoes">Material: Cerâmica</p>
+      <a class="botao-whatsapp" href="https://wa.me/5599999999999" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        Comprar Agora
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="assets/canecas/caneca-caldeirao.jpg" alt="Xícara 7">
+      <h2>Xícara Caldeirão</h2>
+      <p class="preco">R$ 45,00</p>
+      <p class="dimensoes">Material: Cerâmica</p>
+      <a class="botao-whatsapp" href="https://wa.me/5599999999999" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        Comprar Agora
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="assets/canecas/psicopato.jpg" alt="Xícara 8">
+      <h2>Xícara Psicopato</h2>
+      <p class="preco">R$ 52,00</p>
+      <p class="dimensoes">Material: Cerâmica</p>
+      <a class="botao-whatsapp" href="https://wa.me/5599999999999" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        Comprar Agora
+      </a>
+    </div>
+  </main>
+</body>
+
+</html>
